@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+}
+#parent{
+    background: linear-gradient(to top right, #004161 ,#56beee , black);
+    padding: 20px;
+    width: 100%;
+}
+#parent h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-weight: 400;
+    margin-bottom: 60px;
+    color: white;;
+}
+#calculator{
+    background-color: #006599;
+    position: relative;
+    margin: auto;
+    width: 290px;
+    height: 462px;
+    /* border: 2px solid yellow; */
+    padding: 15px;
+    box-shadow: 0px 0px 10px 10px #004161;
+    border-radius: 10px;
+}
+#display-cont{
+    width: 275px;
+    height: 100px;
+    border:1px solid black;
+    background-color: #CFEAF5;
+    margin: 2px 2px 2px 2px;;
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 5px;
+    color: black;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+#display{
+    position: relative;
+    top: 30%;
+}
+.button{
+    /* left: 5%; */
+    display: inline-block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    background-color: white;
+    text-align: right;
+    margin: 6px;
+}
+.button:hover{
+    box-shadow: 0px 0px 5px 5px #004161;
+}
+
+.button span{
+    position: relative;
+    width: inherit;
+    height: inherit;
+    font-size: 1.6rem;
+    color: #49B4DE;
+    font-weight: 400;
+    right: 10%;
+    top: 25%;
+}
+
+.operator span{
+    right: 15px;
+}
+
+#display{
+    height: 10px;
+}
+
+.cyan1{
+    background-color: #00AAFF;
+    color: white;
+}
+.cyan1 span{
+    color: white;
+}
+
+.orange1{
+    background-color: #FF6600;
+    color: white;
+}
+
+.orange1 span{
+    color: white;
+}
+.height1{
+    height: 128px;
+}
+
+.height1 span{
+    margin-top: 30%;
+}
+
+#negativem1{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -280px;
+}
+#negativem2{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -210px;
+}
+#negativem3{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -135px;
+}
